@@ -29,12 +29,21 @@ On phones, tap to open the keyboard; tap the canvas again to call a visitor.
 ## Features
 
 - **Six flower types:** rose, peony, tulip, daisy, poppy and bellflower, each word with its own favourite.
+- **Ten fonts:** Playfair Display (default), DM Serif Display, Abril Fatface, Bodoni Moda, Fraunces, Cormorant Garamond, Pacifico, Caveat, Archivo Black and Bebas Neue. Pick from the dropdown in the Type bar or the Font list in Poster; spacing and the garden re-fit to each face, and SVG export keeps the chosen font. Fonts load from Google Fonts, so go online once for them to appear.
 - **Ten palettes:** Rose noir, Paper, Midnight, Citrus, Orchid, Moss, Tomato, Butter, Blush and Mono.
 - **Overlap avoidance:** blooms keep clear of each other. Newer blooms shrink to fit, or are dropped if there is no room.
 - **Visitors:** butterflies, bees and dragonflies fly in on their own or on click, land on blooms, hop between them, then leave.
 - **Soft sound:** a pentatonic chime per keypress (toggle with the SOUND button).
-- **Poster mode:** 1080 × 1080 animated loops with seven motion presets (Breathe, Grow & wither, Typed, Gust, Reach, Scatter, Visitors).
+- **Poster mode:** animated loops with seven motion presets (Breathe, Grow & wither, Typed, Gust, Reach, Scatter, Visitors), in four sizes: Square (1080 × 1080), Phone (1080 × 1920), Desktop (1920 × 1080) and Ultrawide (2560 × 1080).
 - **Export:** PNG and SVG from the typing view; MP4/WebM video and PNG frame ZIP from Poster mode.
+
+## Live wallpaper
+
+1. Switch to **Poster**, type your words and pick a motion and palette.
+2. Choose a **Size**: Phone (9:16) for mobile wallpapers, Desktop (16:9) or Ultrawide (21:9) for monitors.
+3. Click **Export MP4/WebM loop** and drop the video into a live-wallpaper app of your choice.
+
+The format depends on your browser: Chrome and Edge export MP4 where supported; otherwise WebM. Every loop is seamless and 30 fps.
 
 ## Customise
 
@@ -54,7 +63,7 @@ Edit the `CONFIG` block at the top of the script in `type-garden.html`:
 
 ## Tech
 
-Plain JavaScript and the Canvas 2D API in one HTML file. Type is set in Playfair Display Bold; the interface uses DM Mono.
+Plain JavaScript and the Canvas 2D API in one HTML file. The interface uses DM Mono; the type face is your choice from ten fonts (see Features).
 
 ## Credits
 
